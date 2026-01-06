@@ -17,7 +17,7 @@ export default function AboutUs() {
                     backgroundAttachment: 'fixed'
                 }}
             >
-                <div className="absolute inset-0 bg-emerald-950/80 backdrop-blur-[3px]" />
+                <div className="absolute inset-0 bg-black-950/80 backdrop-blur-[3px]" />
             </div>
 
             {/* --- CONTENT AREA --- */}
@@ -98,7 +98,7 @@ export default function AboutUs() {
                     </div>
 
                     {/* WHY Section (Wide Background Card) */}
-                    <div className="backdrop-blur-2xl bg-emerald-950/40 border border-white/10 p-12 md:p-20 rounded-[4rem] text-center mb-8 shadow-3xl flex flex-col items-center">
+                    <div className="backdrop-blur-2xl bg-black-950/40 border border-white/10 p-12 md:p-20 rounded-[4rem] text-center mb-8 shadow-3xl flex flex-col items-center">
                         <span className="text-orange-400 font-black text-xs uppercase mb-6 tracking-[0.5em] italic opacity-50 leading-none">THE PROBLEM</span>
                         <h4 className="text-2xl md:text-4xl font-black uppercase italic mb-8 tracking-tighter">WHY WE EXIST</h4>
                         <p className="text-white/70 text-lg font-medium italic leading-loose max-w-3xl">
